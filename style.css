@@ -44,3 +44,32 @@
     background-color: var(--bs-info);
     margin:auto;
 }
+
+.bg-blue{
+    background-color: var(--main-color) !important;
+}
+
+.work-card{
+    overflow:hidden;
+}
+
+.content{
+    z-index: 111;
+}
+.work-card img{
+    transition: all 0.4s;
+}
+
+.work-card:hover img{
+    transform:scale(1.1);
+   
+}
+
+.work-card:hover .content{
+    transform:translateY(-20px);
+}
+
+.work-card .content{
+    transition:all 0.4s;
+}
+
