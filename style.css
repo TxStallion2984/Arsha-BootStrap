@@ -1,5 +1,5 @@
 :root{
-    --main-color : #37517E;
+    --main-color : rgb(55, 81, 126);
 }
 
 .hero-section{
@@ -71,5 +71,9 @@
 
 .work-card .content{
     transition:all 0.4s;
+}
+
+.image-section{
+    background:linear-gradient(to right, rgba(55, 81, 126, 0.5), rgba(55, 81, 126, 0.7)), url('https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp'); 
 }
 
