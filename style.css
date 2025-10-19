@@ -92,3 +92,21 @@
     transform:translateY(0);
 }
 
+.blog-card img{
+    transition: all 0.4s;
+}
+
+.blog-card{
+    overflow:hidden;
+    cursor:pointer;
+}
+.blog-card:hover img{
+    scale:1.1;
+}
+
+.blog-card .blue2{
+    transition: all 0.4s;
+}
+.blog-card:hover .blue2{
+    color: var(--bs-info) !important;
+}
