@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --main-color:rgb(55, 81, 126);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.bg-blue{
+    background-color: var(--main-color);
+}
+
+.navbar {
+    padding: 1rem !important;
+}
+
+.navbar .nav-link {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.navbar .nav-item {
+    margin: 0 0.3rem;
+}
+
+nav a{
+    color:white !important;
+}
+
+.dropdown-menu a{
+    color:black !important;
+
+}
+
+.animate-image{
+    animation:move 1s linear infinite alternate;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-15px);
+    }
+}
+
+.btn-outline-info:hover{
+    color:white !important;
+}
+
+.btn-outline-info:hover .bi-arrow-right{
+    color:white !important;
+}
+
+
+.text-blue{
+    color: var(--main-color) !important;
+}
+
+.gray-line{
+    height: 2px;
+    width:140px;
+    background-color: lightgrey;
+    margin:auto;
+}
+
+.blue-line{
+    height: 4px;
+     width: 55px;
+     background-color: var(--bs-info);
+     margin:auto;
+}
+
+.bg-blue{
+    background-color: var(--main-color) !important;
+}
+
+.card{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.card:hover{
+    scale: 1.1;
+
+}
+
+.card h5:hover{
+    color:var(--bs-info) !important;
+}
+
+.work-card{
+    overflow: hidden;
+}
+.content {
+    z-index: 111;
+}
+
+.work-card img{
+    transition:all 0.6s;
+}
+
+
+.work-card:hover img{
+    transform:scale(1.1);
+}
+
+.work-card:hover .content{
+    transform: translateY(-20px);
+}
+
+.work-card:hover .content{
+    transition: all 0.4s;
+}
+
+.image-section {
+    background: linear-gradient(to right, rgba(68, 88, 124, 0.7), rgba(50, 79, 130, 0.5)), url('https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp');
+}
