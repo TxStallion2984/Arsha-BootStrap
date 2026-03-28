@@ -92,6 +92,24 @@ nav a{
     background-color: var(--main-color) !important;
 }
 
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.accordion-item h6:hover {
+    color: var(--bs-info) !important;
+    transition: all 0.3s;
+}
+
 .card{
     cursor: pointer;
     transition: all 0.6s;
@@ -103,6 +121,7 @@ nav a{
 
 .card h5:hover{
     color:var(--bs-info) !important;
+    transition: all 0.5s;
 }
 
 .work-card{
