@@ -1,153 +1,150 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-:root{
-    --main-color:rgb(55, 81, 126);
+:root {
+  --main-color: rgb(55, 81, 126);
 }
 
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
 
-.bg-blue{
-    background-color: var(--main-color);
+.bg-blue {
+  background-color: var(--main-color);
 }
 
 .navbar {
-    padding: 1rem !important;
+  padding: 1rem !important;
 }
 
 .navbar .nav-link {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .navbar .nav-item {
-    margin: 0 0.3rem;
+  margin: 0 0.3rem;
 }
 
-nav a{
-    color:white !important;
+nav a {
+  color: white !important;
 }
 
 .arrow {
-    position: fixed;
-    bottom: 20px;
-    right:25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index:111;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 111;
 }
 
-.dropdown-menu a{
-    color:black !important;
-
+.dropdown-menu a {
+  color: black !important;
 }
 
-.animate-image{
-    animation:move 1s linear infinite alternate;
+.animate-image {
+  animation: move 1s linear infinite alternate;
 }
 
-@keyframes move{
-    from{
-        transform: translateY(0);
-    }
-    to{
-        transform: translateY(-15px);
-    }
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
 }
 
-.btn-outline-info:hover{
-    color:white !important;
+.btn-outline-info:hover {
+  color: white !important;
 }
 
-.btn-outline-info:hover .bi-arrow-right{
-    color:white !important;
+.btn-outline-info:hover .bi-arrow-right {
+  color: white !important;
 }
 
-
-.text-blue{
-    color: var(--main-color) !important;
+.text-blue {
+  color: var(--main-color) !important;
 }
 
-.gray-line{
-    height: 2px;
-    width:140px;
-    background-color: lightgrey;
-    margin:auto;
+.gray-line {
+  height: 2px;
+  width: 140px;
+  background-color: lightgrey;
+  margin: auto;
 }
 
-.blue-line{
-    height: 4px;
-     width: 55px;
-     background-color: var(--bs-info);
-     margin:auto;
+.blue-line {
+  height: 4px;
+  width: 55px;
+  background-color: var(--bs-info);
+  margin: auto;
 }
 
-.bg-blue{
-    background-color: var(--main-color) !important;
+.bg-blue {
+  background-color: var(--main-color) !important;
 }
 
 .accordion-item {
-    border: none !important;
+  border: none !important;
 }
 
 .accordion-button:focus {
-    box-shadow: none !important;
-    outline: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 .accordion-button:not(.collapsed) {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .accordion-item h6:hover {
-    color: var(--bs-info) !important;
-    transition: all 0.3s;
+  color: var(--bs-info) !important;
+  transition: all 0.3s;
 }
 
-.card{
-    cursor: pointer;
-    transition: all 0.6s;
+.card {
+  cursor: pointer;
+  transition: all 0.6s;
 }
-.card:hover{
-    scale: 1.1;
-
-}
-
-.card h5:hover{
-    color:var(--bs-info) !important;
-    transition: all 0.5s;
+.card:hover {
+  transform: translateY(-10px);
 }
 
-.work-card{
-    overflow: hidden;
+.card:hover h5 {
+  color: var(--bs-info) !important;
+  transition: all 0.5s;
+}
+
+.work-card {
+  overflow: hidden;
 }
 .content {
-    z-index: 111;
+  z-index: 111;
 }
 
-.work-card img{
-    transition:all 0.6s;
+.work-card img {
+  transition: all 0.6s;
 }
 
-
-.work-card:hover img{
-    transform:scale(1.1);
+.work-card:hover img {
+  transform: scale(1.1);
 }
 
-.work-card:hover .content{
-    transform: translateY(-20px);
+.work-card:hover .content {
+  transform: translateY(-15px);
 }
 
-.work-card:hover .content{
-    transition: all 0.4s;
+.work-card:hover .content {
+  transition: all 0.4s;
 }
 
 .image-section {
-    background: linear-gradient(to right, rgba(68, 88, 124, 0.7), rgba(50, 79, 130, 0.5)), url('https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp');
+  background:
+    linear-gradient(to right, rgba(68, 88, 124, 0.7), rgba(50, 79, 130, 0.5)),
+    url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp");
 }
-
