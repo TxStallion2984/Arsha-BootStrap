@@ -146,3 +146,10 @@ nav a {
     linear-gradient(to right, rgba(68, 88, 124, 0.7), rgba(50, 79, 130, 0.5)),
     url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp");
 }
+
+.btn-outline-light:hover{
+  background-color: var(--bs-info) !important;
+  color:white !important;
+  border-color: var(--bs-info) !important;
+  transition: all 0.5s;
+}
